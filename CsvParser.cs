@@ -147,7 +147,6 @@ namespace CsvImporter
         public List<T> ToListWithTextFieldParser<T>(TextFieldParser parser, Func<string[], T> func)
         {
             List<T> list = new List<T>();
-            
             // skip the first line with the collumn names
             if (options.HasCollumnNames)
                 parser.ReadLine();

@@ -7,8 +7,8 @@
     <ProjectGuid>{52D37C13-C251-44C7-9054-03430E876432}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CsvImporter</RootNamespace>
-    <AssemblyName>CsvImporter</AssemblyName>
+    <RootNamespace>CsvParser</RootNamespace>
+    <AssemblyName>CsvParser</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CsvReader.cs" />
-    <Compile Include="CsvOptions.cs" />
+    <Compile Include="CsvParser.cs" />
+    <Compile Include="CsvParserOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
